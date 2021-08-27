@@ -2,7 +2,7 @@ class Messages:
 
     START_MSG = (
         "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube "
-        "once you authorise me.You can know more from /help.\n\nThank you."
+        "once you authorise me.You can know more from /help./nJoin Our Channel to access me - @umlinks \n\nThank you."
     )
 
     HELP_MSG = [
@@ -30,26 +30,26 @@ class Messages:
         "open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and "
         "send it.\n\n**Fear not!**\nI'm not a hacker or someone who wants to creep into people's privacy. I respect "
         "one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here "
-        "writing Telegram Bots.",
+        "writing Telegram Bots./nJoin Our Channel to more information @umlinks",
     ]
 
-    NOT_A_REPLY_MSG = "Please reply to some video file."
+    NOT_A_REPLY_MSG = "Please reply to some video file.👿"
 
-    NOT_A_MEDIA_MSG = "No media file found. " + NOT_A_REPLY_MSG
+    NOT_A_MEDIA_MSG = "No media file found.🤷 " + NOT_A_REPLY_MSG
 
-    NOT_A_VALID_MEDIA_MSG = "This is not a valid media"
+    NOT_A_VALID_MEDIA_MSG = "This is not a valid media🤦"
 
     DAILY_QOUTA_REACHED = "Looks like you are trying to upload more than 6 videos today! By default youtube only "
-    "allows about 6 uploads daily, so this request might fail!!"
+    "allows about 6 uploads daily, so this request might fail🙇!!"
 
-    PROCESSING = "Processing....."
+    PROCESSING = "Processing.....☞"
 
-    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate"
+    NOT_AUTHENTICATED_MSG = "You have not authenticated me to upload video to any account. see /help to authenticate⚠️"
 
-    NO_AUTH_CODE_MSG = "There is no code. Please provide some code"
+    NO_AUTH_CODE_MSG = "There is no code. Please provide some code🤗"
 
-    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading!"
+    AUTH_SUCCESS_MSG = "Congrats, you have successfully authenticated me to upload to Youtube.\nHappy uploading! /nJoin Our Channel to use me - @umlinks"
 
-    AUTH_FAILED_MSG = "Authentication failed\nDetails:{}"
+    AUTH_FAILED_MSG = "Authentication failed\nDetails:{} /nMore information contact supporting group - @umlinks"
 
-    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data!"
+    AUTH_DATA_SAVE_SUCCESS = "Successfully saved the given auth data! 💥"
