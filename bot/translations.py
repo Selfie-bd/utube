@@ -2,7 +2,7 @@ class Messages:
 
     START_MSG = (
         "Hi there {}.\n\nI'm Youtube Uploader Bot.You can use me to upload any telegram video to youtube "
-        "once you authorise me.You can know more from /help./nJoin Our Channel to access me - @umlinks \n\nThank you."
+        "once you authorise me.You can know more from /help. \n\nJoin Our Channel to access me - @umlinks"
     )
 
     HELP_MSG = [
@@ -30,7 +30,7 @@ class Messages:
         "open the given link and allow access and copy the code. Come back here and type `/authorise copied-code` and "
         "send it.\n\n**Fear not!**\nI'm not a hacker or someone who wants to creep into people's privacy. I respect "
         "one's privacy. I'm here just to help anyone who wants help. If I was a hacker I won't be sitting here "
-        "writing Telegram Bots./nJoin Our Channel to more information @umlinks",
+        "writing Telegram Bots. \n\nJoin Our Channel to more information @umlinks"
     ]
 
     NOT_A_REPLY_MSG = "Please reply to some video file.👿"
