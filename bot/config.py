@@ -42,8 +42,8 @@ class Config:
     UPLOAD_MODE = os.environ.get("UPLOAD_MODE") or False
     if UPLOAD_MODE:
         if UPLOAD_MODE.lower() in ["private", "public", "unlisted"]:
-            UPLOAD_MODE = UPLOAD_MODE.lower()
+            UPLOAD_MODE = public
         else:
-            UPLOAD_MODE = False
+            UPLOAD_MODE = "public"
 
     CRED_FILE = "auth_token.txt"
